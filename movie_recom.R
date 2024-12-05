@@ -25,7 +25,7 @@ log_info <- function(msg) {
 }
 
 config <- list(
-  data_path = 'movies_metadata.csv',
+  data_path = 'movie_metadata.csv',
   features = c('keywords', 'cast', 'genres', 'director'),
   recommended_movies_count = 5,
   text_preprocessing = list(
