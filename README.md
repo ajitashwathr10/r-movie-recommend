@@ -41,14 +41,17 @@ This script processes user data and movie data to generate personalized recommen
 ## Dependencies
 This project requires the following R packages:
 ```R
-data.table
 dplyr
-ggplot2
-recommenderlab
+tidyr
+tm
+SnowballC
+stringr
+proxy
+logger
 ```
 You can install these packages using the following R command:
 ```R
-install.packages(c("data.table", "dplyr", "ggplot2", "recommenderlab"))
+install.packages(c('dplyr', 'tidyr', 'tm', 'SnowballC', 'stringr', 'proxy', 'logger'))
 ```
 
 ## Contributing
